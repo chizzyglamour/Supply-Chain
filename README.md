@@ -7,6 +7,7 @@
 - [Recommendations](#recommendations)
 
 ### Project Overview
+---
 
 TechElectro Inc., a global leader in consumer electronics, offers a diverse range of products, 
 including smartphones and home appliances. Despite its global reach, the company faces inventory 
@@ -14,6 +15,7 @@ management challenges, such as overstocking, understocking, and reduced customer
 The project aims to address these inefficiencies to enhance operational performance and customer loyalty.
 
 ### Data Source
+---
 
 1. Sales Data: 
    Contains details of product sales, including product ID, sale date, units sold, and cost per unit.  
@@ -25,10 +27,12 @@ The project aims to address these inefficiencies to enhance operational performa
    Provides external factors influencing sales, such as GDP, inflation rate, and seasonal index.
 
 ### Tools
+---
 - MySQL
   - [Download here](htpps://www.mysql.com)
 
 ### Data Cleaning/Preparation
+---
 
 In the initial phase of this project, the following steps were carried out to prepare the data:
 
@@ -41,6 +45,7 @@ The Data Cleaning phase includes:
 3. Dealing with duplicates.
 
 ### Data Integration
+---
 
 This involved combining relevant datasets SQL joins (`INNER JOIN`, `LEFT JOIN`, etc.) for further analysis
 
@@ -48,6 +53,7 @@ This involved combining relevant datasets SQL joins (`INNER JOIN`, `LEFT JOIN`, 
 - combination of sales_product_data and external factors
 
 ### Exploratory Data Analysis (EDA)
+---
 
  Utilized MySQL for EDA, conducting advanced analytics and statistical analysis to explore data patterns, correlations, and descriptive statistics without relying on data visualization.
 
@@ -60,6 +66,7 @@ This involved combining relevant datasets SQL joins (`INNER JOIN`, `LEFT JOIN`, 
 
 
 ### Data Analysis
+---
 
 In this phase we carry out inventory optimization which aims to ensure that the right amount of stock is maintained to meet customer demand while minimizing holding costs and potential stockouts. 
 To achieve this, the following steps were taken: 
@@ -71,6 +78,7 @@ To achieve this, the following steps were taken:
  - Monitor and Adjust:(stored procedures)
 
 ### Results/Findings
+---
 
 1. Inventory Discrepancies: The initial stages of the analysis revealed significant discrepancies in inventory levels, with instances of both overstocking and understocking.
  These inconsistencies were contributing to capital inefficiencies and customer dissatisfaction.
@@ -81,7 +89,8 @@ To achieve this, the following steps were taken:
 3. Suboptimal Inventory Levels: Through the inventory optimization analysis, it was evident that the existing inventory levels were not optimized for current sales trends.
     Products was identified that had either close excess inventory.
 
-### Recommendations 
+### Recommendations
+---
 
 1. Implement Dynamic Inventory Management: The company should transition from a static to a dynamic inventory management system,
    adjusting inventory levels based on real-time sales trends, seasonality, and external factors.
@@ -104,6 +113,7 @@ To achieve this, the following steps were taken:
 By addressing these areas, TechElectro Inc. can significantly improve its inventory management system, leading to increased
 operational efficiency, reduced costs, and enhanced customer satisfaction.
 
+ 
 
 
 
